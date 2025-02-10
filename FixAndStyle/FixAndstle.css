@@ -1,0 +1,22 @@
+a {
+    color: green;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  .Inferno {background-color: yellow;}
+  h5 {color:red}
+  h2 {color:  blue}
+  h1 {color: white;}
+  .fathersday {text-decoration: bold;
+color:yellow; background-color: green;}
+.taxi {color:red}
+.art {background-color:lightgreen}
+.skyblue {background-color: #99AAFF;}
+/* i just screenshotted the color and used a color picker on a photo editing site */
+#imthedoctor {color:orange}
+.doctor {color:blue}
+.daughter {background-color: yellow;}
