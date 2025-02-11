@@ -1,0 +1,43 @@
+#emphasis {color:blue}
+main {color: darkgray;
+background-color: rgb(0, 0, 0);}
+a {color: red;}
+a:visited {color:green}
+a:hover {color:yellow}
+h1 {color: orange; font-style: italic;}
+h2 {color:orange; font-style: italic;
+}
+h3 {color: orange; font-style: italic;
+}
+.emphasis {color:blue}
+.class1 {color: mediumseagreen;}
+.class2 {color: blueviolet;}
+#importantinfo {background-color: darkgray; color: darkblue;
+text-align: center}
+.oops {color: crimson;}
+.image {
+    border: 20px black solid;
+    padding: 20px 20px 20px 20px; 
+    width: 400px;
+    background-color: yellow;
+}
+.justify {
+    text-align: justify;
+}
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center {text-align: center;}
+
+.bggoku {    background-image: url(goku\ manga\ colorless.jpg); background-size: 200px}
+
+.bgwork {    background-image: url(cubicle\ stock.jpg); background-size: 300px}
+
+.bgemoji {    background-image: url(shh\ emoji.jpg); background-size: 100px;}
+
+.pic {
+    border: 3px solid blue; 
+    background-color: lightpink;
+    text-align: center;
+}
