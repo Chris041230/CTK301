@@ -1,0 +1,115 @@
+body {
+    background-color: gray;
+}
+
+nav {
+    grid-column: span 12;
+   
+    margin-top: -15px;
+    margin-right: -20px;
+    margin-bottom: -30px;
+    margin-left: -20px;
+        display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+nav li {
+    width: 236.5px;
+    background-image: linear-gradient(to bottom, #3888ff, #2e73e5, #225fcc, #144cb3, #00399a);  display: inline-block;
+}
+nav li a {
+    text-decoration:none;
+    color:lightblue;
+    font-weight: bold;
+    font-style: normal;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-decoration:none;
+    display: block;
+    
+}
+nav li a:hover{
+    color: white
+
+}
+nav ul{
+    margin-left: -35px;
+}
+header {
+    grid-column: span 12;
+    background-image: linear-gradient(to bottom, #3888ff, #2e73e5, #225fcc, #144cb3, #00399a);
+    font-family: Helvetica, Arial, sans-serif;
+font-style: italic;
+background-color: lightskyblue;
+padding-top: 0px;
+padding-right: 1em;
+padding-bottom: 1em;
+padding-left: 1em;
+margin: 0px;
+display:grid;
+font-size: 17px;
+}
+h1 a {
+    text-decoration:none;
+    color:lightblue;
+    font-weight: lighter;
+    padding-left:10px
+}
+h1 a:hover {
+        color: white
+    
+}
+    main {
+        margin: 1em auto;
+        padding: 0;
+        width: 960px;
+        border: 5px solid darkblue;
+        background-color: #ffffff;
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+    }
+    div a{
+        color:red;
+        text-decoration:none;
+    font-weight: bold;}
+    div {
+        grid-column: span 9;
+        padding-left: 1em;
+        padding-right:1em;
+        padding-top: -10px;
+        background-color:transparent;
+        border-top: solid 5px darkblue;
+    }
+    div h2 {
+        border-bottom: 3px solid darkblue;
+        color:darkblue;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: normal; 
+        padding-bottom: 3px;
+       margin-top: 10px;
+    }
+        .float {
+            float:right;
+            border:solid 5px darkblue;
+            margin-right: 5px;
+        }
+
+        .floatright {
+            grid-column: span 3;
+            background-color:lightblue;
+            border-top: solid darkblue 5px;
+        }
+        .floatright p {
+            text-align: justify;
+            font-weight: bold;
+            margin-top: 25px;
+
+         }
+    footer {
+        display:grid;
+        grid-column: span 12;
+  background-color: red;
+  padding: 8px;
+  border-top: solid darkblue 5px;
+      }
