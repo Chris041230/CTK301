@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link href="assignment12.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+</head>
+
+<body>  
+    <main>
+        <header> 
+  <h1><a href="assignment12.html">chris's mockup into HTML / CSS.</a></h1>    
+</header>
+  <div class="floatleft">
+ <p class="one"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus officiis, numquam explicabo ipsam in illo corporis! Minima officia quo aliquam excepturi odio? Dolorem exercitationem qui enim corrupti voluptatibus, laborum reiciendis. <a href="#" target="_blank">lorem ipsum.</a></p>
+ <div id="myCarousel" class="f-carousel">
+  <div class="f-carousel__slide"><img src="boots.png"></div>
+  <div class="f-carousel__slide"><img src="goku manga colorless.jpg"></div>
+  <div class="f-carousel__slide"><img src="titan.png"></div>
+</div>
+ <p class="two"> It's easier to drag and slide the images. Explicabo eveniet assumenda quibusdam! Sit non alias error ex totam dicta quidem culpa laboriosam, repellat eos dolorem asperiores explicabo neque maiores nulla!</p>
+    </div>
+  
+    <div class="floattop">
+        <h2>Chris's Template Portfolio <a href="#"><img src="test.webp" alt="Render Page"></a>
+        </h2>
+        <p> This was one of many renders that I have done!</p>
+        <div class="floatright">
+        <p>Look at this cool chainsaw sword.</p>
+    <img class rightone src="sworf.png">
+    <p class="adjust1"> It can hack and slash any bad enemy inside Destiny.</p>
+
+    <p>It's cool to be this!</p>
+    <img class="rightonetwo" src="extra.png">
+          <p class="adjust2">This is mostly part of Destiny</p>
+    </div>
+
+  <footer>
+   <p>COPYRIGHT CHIRS K & ASSORTED - <a class="bi bi-twitter-x" href="https://x.com" target="_blank"></a></p>
+  </footer>
+</main>
+<script>
+  const container = document.getElementById("myCarousel");
+  const options = { infinite: false };
+  new Carousel(container, options);
+</script>
+</body>
+</html>

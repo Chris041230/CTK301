@@ -1,0 +1,157 @@
+body {
+    background-color: gray;
+}
+
+nav {
+    grid-column: span 12;
+   
+    margin-top: -15px;
+    margin-right: -20px;
+    margin-bottom: -30px;
+    margin-left: -20px;
+        display: inline-block;
+  }
+nav li {
+    width: 236.5px;
+}
+nav li a {
+    text-decoration:none;
+    color:lightblue;
+    font-weight: bold;
+    font-style: normal;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-decoration:none;
+    display: block;
+    
+}
+nav li a:hover{
+    color: #9A8282;
+
+}
+nav ul{
+    margin-left: -35px;
+}
+header {
+    grid-column: span 12;
+background-color: #9A8282;
+font-family: "Special Gothic Expanded One", sans-serif; font-style: italic;
+padding-top: 0px;
+padding-right: 1em;
+padding-bottom: 1em;
+padding-left: 1em;
+margin: 0px;
+display:grid;
+font-size: 17px;
+}
+h1 a {
+    text-decoration:none;
+    color:#442020;
+    font-weight: lighter;
+    padding-left:10px;
+    width: 75%;
+}
+h1 a:hover {
+        color: #ff2d2d;
+        width:100%;
+        transition: width 1.0s, color 1.0s;
+    
+}
+    main {
+        margin: 1em auto;
+        padding: 0;
+        width: 960px;
+        border: 5px solid #442020;
+        background-color: #9A8282;
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+div {
+    grid-column: span 6;
+    padding-top: -10px;
+    background-color:transparent;
+    border-top: solid 5px #442020;
+}
+    footer {
+        display:grid;
+        grid-column: span 12;
+  background-color: red;
+  padding: 5px;
+  border-top: solid #442020 5px;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  width: 98%;
+
+
+      }
+      footer a:hover {
+        background-color: #7c0000;
+        color: rgb(255, 255, 255);
+        width:110%;
+        transition: width 1.0s, color 1.0s;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      div a{
+        color:darkred;
+        text-decoration:none;
+    font-weight: bold;}
+
+      .floatleft{
+        grid-column: span 6;
+        border-right: solid black 1em;
+      }
+
+    div h2{
+        border-bottom: 3px solid #442020;
+        color:#442020;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: normal; 
+        padding-bottom: 5px;
+       margin-top: 10px;
+       
+       width:460px
+    }
+      
+      .floattop h2 img {
+        width: 115px;
+        box-shadow: 10px 10px 10px #3d0000;
+        border-radius: 36%;
+      }
+
+      .floatright {
+        border-top: solid #442020 10px;
+        grid-column: span 6;
+        color: white
+    }
+      .floatright img {
+        width: 200px;
+        box-shadow: 10px 10px 10px #282828;
+       
+      }
+
+    .floatleft img {
+        width: 400px;
+    }
+
+    .floatleft p {
+        color: white;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+  
