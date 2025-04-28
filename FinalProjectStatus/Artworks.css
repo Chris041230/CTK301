@@ -1,0 +1,125 @@
+body {
+    background-color: gray;
+}
+
+header {
+    grid-column: span 12;
+background-color: #9A8282;
+font-family: "Special Gothic Expanded One", sans-serif; font-style: italic;
+padding-top: 0px;
+padding-right: 1em;
+padding-bottom: 1em;
+padding-left: 1em;
+margin: 0px;
+display:grid;
+font-size: 17px;
+text-align: center;
+}
+    main {
+        margin: 1em auto;
+        padding: 0;
+        width: 960px;
+        border: 5px solid #442020;
+        background-color: #9A8282;
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+div {
+    grid-column: span 6;
+    padding-top: -10px;
+    background-color:transparent;
+  }
+    footer {
+        display:grid;
+        grid-column: span 12;
+  background-color: red;
+  padding: 5px;
+  border-top: solid #442020 5px;
+  font-family: "Special Gothic Expanded One", sans-serif;
+      }
+      footer a:hover {
+        background-color: #7c0000;
+        color: rgb(255, 255, 255);
+        width:110%;
+        transition: width 1.0s, color 1.0s;
+      }
+
+
+      div a{
+        color:darkred;
+        text-decoration:none;
+    font-weight: bold;}
+
+      .floatleft{
+        grid-column: span 6;
+        border-right: solid black 1em;
+        border-top: solid 5px #442020;
+
+      }
+
+    div h2{
+        border-bottom: 3px solid #442020;
+        color:#442020;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: normal; 
+        padding-bottom: 5px;
+       margin-top: 10px;
+       text-align: center;
+       display: grid;
+    }
+      
+      .floattop li {
+        width: 115px;
+        box-shadow: 10px 10px 10px #3d0000;
+        float: right;
+        margin-bottom: 1em;
+        margin-right: 1em;
+        background-color: #3d0000;
+        border-radius: 50%;
+        text-align: center;
+        display: block;
+        padding: .5em;
+        font-family: "Special Gothic Expanded One", sans-serif;
+
+      }
+
+      .floattop li a { 
+         padding: .2em;}
+ .floattop li a:hover{
+  background-color: #7c0000;
+  color: rgb(255, 255, 255);
+  width:110%;
+  transition: color 1.0s, background-color 1.0s;
+  border-radius: 50%;
+ }
+      .floatright {
+        border-top: solid #442020 10px;
+        grid-column: span 6;
+        color: white;
+        border-top: solid 5px #442020;
+
+    }
+      .floatright img {
+        width: 350px;
+        box-shadow: 10px 10px 10px #282828;
+      }
+
+    .floatleft img {
+        width: 400px;
+    }
+
+    .floatleft p {
+        color: white;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+  
+    #myCarousel {
+      text-align: center;
+      border-top: 0 !important;
+    }
+
+    .floattop{
+      grid-column: span 12;
+    }
